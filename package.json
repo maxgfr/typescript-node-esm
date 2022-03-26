@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "maxgfr",
   "license": "MIT",
-  "description": "A minimalist typescript swc starter",
+  "description": "A minimalist typescript swc starter (esm-only)",
   "main": "./build/index.js",
   "type": "module",
   "repository": {

@@ -1,15 +1,14 @@
 /** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
   transform: {
-    '^.+\\.(t|j)s$': [
-      '@swc/jest',
-      {
-        jsc: {
-          target: 'es2021',
-        },
-      },
-    ],
+    '^.+\\.(t|j)sx?$': '@swc/jest',
   },
+  transformIgnorePatterns: [],
+  testEnvironment: 'node',
+  extensionsToTreatAsEsm: ['.ts'],
   setupFiles: ['dotenv/config'],
   testPathIgnorePatterns: ['/node_modules/', '/build/'],
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1',
+  },
 };
