@@ -1,14 +1,12 @@
-# typescript-swc-starter
+# typescript-node-esm
 
-A simple node boilerplate made in typescript using swc.
-
-> NOTE : A version without rust compiler [swc](https://swc.rs/) is available [here](https://github.com/maxgfr/boilerplate-typescript-node).
+A simple node boilerplate made in typescript using swc (ESM only).
 
 ## Clone repository and install dependencies
 
 ```sh
-git clone https://github.com/maxgfr/typescript-swc-starter # For cloning the repository
-cd typescript-swc-starter # To navigate to the repository root
+git clone https://github.com/maxgfr/typescript-node-esm # For cloning the repository
+cd typescript-node-esm # To navigate to the repository root
 yarn # Install dependencies
 cp .env.example .env
 ```
